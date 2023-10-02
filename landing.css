@@ -273,6 +273,7 @@
   @media screen and (max-width: 768px) {
     header {
       height: 90px;
+      flex-direction: column;
     }
   
     .logo{
