@@ -54,6 +54,10 @@
     bottom: 0;
     transition: 0.5;
 }
+
+#nav-bar li a:hover::after {
+  width: 100%;
+}
   
   .nav-link {
     text-decoration: none;
