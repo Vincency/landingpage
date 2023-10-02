@@ -263,10 +263,10 @@
       height: 90px;
     }
   
-    #logo-icon {
-      top: 35px;
+    .logo{
+        margin-top: 15px;
     }
-  
+
     #nav-bar {
       top: 47px;
       left: 0;
