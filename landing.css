@@ -139,6 +139,37 @@
     opacity: 75%;
   }
 
+@media (max-width: 780px) {
+
+    .hero-section{
+      height: auto;
+      padding: 10px 10px;
+    }
+    
+    .hero-section h2{
+      font-size: 36px;
+     }
+  
+    .hero-section h4{
+      font-size: 20px;
+      margin-top: 5px;
+    }
+
+    .hero-section h4 span{
+      display: none;
+    }
+
+    .hero-section .follow-us{
+      padding: 10px 5px;
+    }
+
+    .hero-section .follow-us p{
+      font-size: 20px;
+      padding-top: 8px
+    }
+
+  }
+
 
   /* Container Styles */
   .container,
