@@ -41,7 +41,19 @@
     margin: 0 0.2rem;
     padding: 0.2rem;
     display: block;
+    position: relative;
   }
+
+#nav-bar li a::after {
+    content: '';
+    background: #fffb00;
+    width: 0;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5;
+}
   
   .nav-link {
     text-decoration: none;
