@@ -270,15 +270,16 @@
     color: #d0312d;
   }
   
-  .product > ol {
+  .product > ul {
     margin: 15px 0;
     color: #0b2ce9;
   }
   
-  .product > ol > li {
+  .product > ul > li {
     padding: 5px 0;
+    list-style: none;
   }
-  
+
   .product > button {
     border: 0;
     margin: 15px 0;
