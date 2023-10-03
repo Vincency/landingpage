@@ -83,19 +83,6 @@
     text-shadow: -3px -3px 3px #2c91c0;
   }
 
-
-
-  /* @media screen and (max-width: 768px) {
-    .logo h2{
-      font-size: 30px;
-    }
-
-    #nav-bar ul{
-      padding: 20px;
-      font-size: 22px;
-    }
-  } */
-
   /* HERO SECTION */
 
   .hero-section{
@@ -182,9 +169,9 @@
   }
     /* position: relative; */
   
-  #image {
+   #image {
     width: 100%;
-    height: 55vh;
+    height: 100vh;
   }
 
   .image2{
@@ -333,6 +320,10 @@
 
     .product img {
       width: 310px;
+    }
+
+     #image{
+      height: 55vh;
     }
   }
   
